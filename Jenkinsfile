@@ -5,4 +5,7 @@ node {
    stage('call testjob') {
       echo 'tespin'
    }
+   stage('Final job') {
+      echo 'Hello World!!'
+   }
 }

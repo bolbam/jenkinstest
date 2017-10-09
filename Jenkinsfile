@@ -3,6 +3,6 @@ node {
       git 'https://github.com/bolbam/jenkinstest.git'
    }
    stage('call testjob') {
-      build 'tespin'
+      echo 'tespin'
    }
 }
